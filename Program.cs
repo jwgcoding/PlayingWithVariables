@@ -8,19 +8,17 @@ namespace PlayingWithVariables
         {
             string dogName = "Coco";
             int dogAge = 6;
-            bool isAlive = true;
+            bool loveDog = true;
             var chars = "c";
             decimal dogAgeNew = 6.5m;
             double dogAgeOld = 6.55;
-         
-            Console.WriteLine($"My dog's name is {dogName}, her name starts with a {chars}." + 
-                " " + $"Currently she is about {dogAge}, " +
-                $"but if I would guess she is around {dogAgeNew} " +
-            Console.WriteLine($"In a month she will be {dogAgeOld} years old." + $"I love her. {loveDog}.");
-                $"Do I love her?,{isAlive}");
 
-
-
-        }
+            Console.WriteLine($"My dog's name is {dogName}, her name starts with a {chars}.");
+            Console.WriteLine($"Currently she is about {dogAge}.");
+            Console.WriteLine($"To be precise, she is around {dogAgeNew}.");
+            Console.WriteLine($"In a month she will be {dogAgeOld} years old.");
+            Console.WriteLine($"I love her. {loveDog}");
+            Console.ReadLine();
+            }
     }
 }
