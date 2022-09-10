@@ -16,7 +16,7 @@ namespace PlayingWithVariables
             Console.WriteLine($"My dog's name is {dogName}, her name starts with a {chars}." + 
                 " " + $"Currently she is about {dogAge}, " +
                 $"but if I would guess she is around {dogAgeNew} " +
-                $"and in a month she will be {dogAgeOld} years old." + " " + 
+            Console.WriteLine($"In a month she will be {dogAgeOld} years old." + $"I love her. {loveDog}.");
                 $"Do I love her?,{isAlive}");
 
 
